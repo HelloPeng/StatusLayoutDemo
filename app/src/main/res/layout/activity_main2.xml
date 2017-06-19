@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="加载状态切换(自定义标题)"
+        app:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_vector_yaoyiyao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="我只是个摇一摇"
+        android:textColor="#5e2594"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="进入到Fragment结合ViewPager的页面" />
+
+
+</LinearLayout>
